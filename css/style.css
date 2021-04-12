@@ -20,6 +20,7 @@ a {
     color: inherit;
 }
 
+/* header */
 .header_inner {
     display: flex;
     justify-content: center;
@@ -46,10 +47,12 @@ a {
 .header_menu-element:hover::before {
     content: "";
     position: absolute;
+
     width: 10px;
     height: 10px;
     left: 35%;
     top: -20px;
+
     background-image: url('../imgs/Menu.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -63,18 +66,104 @@ a {
     margin-right: 34px;
 }
 
+/* header button */
 .header_contact-button {
     line-height: 40px;
     border-radius: 100px;
     padding: 0 15px;
+
     color: #fff;
     font-size: 16px;
     background-color: #3751FF;
     border: none;
+
     cursor: pointer;
     transition: all .3s;
 }
 
 .header_contact-button:hover {
     background-color: #001496;
+}
+
+/* content */
+.content {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.hero {
+    height: 1012px;
+    background: linear-gradient(180deg, #F2F9FF 0%, rgba(242, 249, 255, 0.12) 100%);
+}
+
+.hero h3, p {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+.hero h3 {
+    color: #1E266D;
+    font-size: 56px;
+    
+    padding-top: 144px;
+}
+
+.hero p {
+    color: #455880;
+    font-size: 18px;
+
+    padding-top: 28px;
+}
+
+/* buttons in hero */
+.btns {
+    display: flex;
+    justify-content: center;
+    
+
+    padding-top: 28px;
+}
+
+.buy_btn, .see_features_btn {
+    line-height: 50px;
+    border: none;
+    border-radius: 100px;
+
+    font-size: 16px;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buy_btn {
+    background-color: #3751FF;
+    color: #fff;
+    
+    padding: 0 38px;
+    margin-right: 23px;
+}
+
+.buy_btn:hover {
+    background-color: #001496;
+}
+
+.see_features_btn {
+    background-color: #fff;
+
+    color: #455880;
+    padding: 0 36px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.see_features_btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+/* image in hero */
+.img {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 32px;
 }
