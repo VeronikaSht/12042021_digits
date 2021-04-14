@@ -265,3 +265,45 @@ a {
     font-family: 'Roboto';
 }
 
+/* PORTFOLIO */
+.portfolio {
+    background-color: #FFF9EA;
+    height: 1001px;
+
+    text-align: center;
+}
+
+.portfolio__title {
+    padding: 139px 0 40px 0;
+
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #1E266D;
+}
+
+.portfolio__text {
+    padding-bottom: 40px;
+
+    font-size: 21px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #455880;
+}
+
+.portfolio__btn {
+    width: 148px;
+
+    border: none;
+    border-radius: 100px;
+    background-color: #3751FF;
+    color: #fff;
+
+    padding: 17px 0;
+
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
